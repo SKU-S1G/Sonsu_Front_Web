@@ -98,6 +98,7 @@ export default function Speed() {
             {question ? question : "문제를 불러오는 중..."}
           </div>
           
+          {/* 정확도 띄우기 */}
           <div className="flex justify-center mt-4 text-[24px] font-bold">
             {gameResult && (
               <span className={gameResult.includes("정답") ? "text-green-600" : "text-red-600"}>
